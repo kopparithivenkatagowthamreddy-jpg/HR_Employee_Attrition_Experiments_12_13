@@ -1,0 +1,128 @@
+{
+    "experiment": 12,
+    "project": "HR Employee Attrition Prediction",
+    "target": "left",
+    "baseline_performance": {
+        "accuracy": 0.9833263859941642,
+        "precision": 0.9811827956989247,
+        "recall": 0.9170854271356784,
+        "f1_score": 0.948051948051948
+    },
+    "prediction_distribution": {
+        "baseline_employee_attrition_rate": 0.15506461025427262,
+        "incoming_employee_attrition_rate": 0.12922050854522718,
+        "change": -0.02584410170904544
+    },
+    "feature_drift": {
+        "satisfaction_level": {
+            "test": "KS",
+            "statistic": 0.20341809087119633,
+            "p_value": 7.875840814941122e-44,
+            "status": "DRIFT"
+        },
+        "last_evaluation": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "number_project": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "average_montly_hours": {
+            "test": "KS",
+            "statistic": 0.19549812421842436,
+            "p_value": 1.7061633059455097e-40,
+            "status": "DRIFT"
+        },
+        "time_spend_company": {
+            "test": "KS",
+            "statistic": 0.23134639433097123,
+            "p_value": 1.1025081615604931e-56,
+            "status": "DRIFT"
+        },
+        "Work_accident": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "promotion_last_5years": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_RandD": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_accounting": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_hr": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_management": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_marketing": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_product_mng": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_sales": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_support": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "Department_technical": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "salary_low": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        "salary_medium": {
+            "test": "KS",
+            "statistic": 0.0,
+            "p_value": 1.0,
+            "status": "STABLE"
+        }
+    },
+    "drift_detected": true,
+    "note": "Incoming batch is simulated for academic monitoring demonstration."
+}

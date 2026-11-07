@@ -1,0 +1,30 @@
+{
+    "experiment": 13,
+    "project": "HR Employee Attrition Prediction",
+    "target_column": "left",
+    "workflow": [
+        "Load HR employee dataset",
+        "Use preprocessed training and testing data",
+        "Monitor model performance and feature drift",
+        "Retrain and compare candidate model",
+        "Promote candidate only when F1-score does not decrease",
+        "Evaluate final production model"
+    ],
+    "stages": [
+        {
+            "stage": "Monitoring, drift detection and retraining",
+            "status": "SUCCESS"
+        },
+        {
+            "stage": "Model loading and evaluation",
+            "status": "SUCCESS"
+        }
+    ],
+    "final_model_metrics": {
+        "accuracy": 0.9833263859941642,
+        "precision": 0.9811827956989247,
+        "recall": 0.9170854271356784,
+        "f1_score": 0.948051948051948
+    },
+    "overall_status": "SUCCESS"
+}

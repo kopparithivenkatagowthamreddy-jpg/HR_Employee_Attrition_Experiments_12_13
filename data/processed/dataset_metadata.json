@@ -1,0 +1,10 @@
+{
+    "original_rows": 14999,
+    "cleaned_rows": 11991,
+    "features": 18,
+    "training_rows": 9592,
+    "testing_rows": 2399,
+    "target": "left",
+    "test_size": 0.2,
+    "random_state": 42
+}
